@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(82, 82, 82);
+  color: white;
+}
+
+h1{
+  text-align: center;
+  margin: 7rem auto 4rem;
+}
+
+form{
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  background-color: rgb(52, 52, 52);
+  border-radius: 0.5rem;
+}
+
+input{
+  flex: 1;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: transparent;
+  color: rgb(197, 197, 197);
+}
+
+button{
+  padding: 0 40px;
+  height: 100%;
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.search_result{
+  width: 80%;
+  margin: 100px auto 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.search_result img{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
